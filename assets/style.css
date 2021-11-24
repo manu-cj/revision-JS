@@ -33,14 +33,14 @@ body {
 
 .case {
     width: 33%;
-    height: 15rem;
+    height: 20rem;
     border: inset 2px #d44747;
     border-radius: 10px;
     background-color: rosybrown;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 10rem;
+    font-size: 15rem;
 }
 
 #restart {
