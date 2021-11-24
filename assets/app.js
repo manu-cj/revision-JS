@@ -7,12 +7,15 @@ document.addEventListener('contextmenu', function (event) {
     event.preventDefault();
 });
 
+function test() {
+    alert('coucou')
+}
+
 
 for (let i = 0; i < cases.length; i++) {
     cases[i].addEventListener('mouseup', function (event) {
-        if (event.button === LEFT_BUTTON)
-
-            insertText(this, 'X', 'green')
+        if (event.button === LEFT_BUTTON) {
+            insertText(this, 'X', 'green')}
         else if (event.button === RIGHT_BUTTON)
             insertText(this, 'O', 'red')
     });
