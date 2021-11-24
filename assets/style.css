@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+body {
+    width: 100%;
+    background-color: #77ffff;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+#game {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2rem auto;
+    background-color: #d44747;
+    border-radius: 10px;
+    border: inset 5px #197a51;
+}
+
+.case {
+    width: 33%;
+    height: 15rem;
+    border: inset 2px #d44747;
+    border-radius: 10px;
+    background-color: rosybrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+}
+
+#restart {
+    padding: 0.8rem;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+.green {
+    color: #197a51;
+}
+
+.red {
+    color: #9f0808;
+}
