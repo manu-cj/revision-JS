@@ -22,3 +22,6 @@ function insertText(element, lettreJoueur, classCss) {
     element.innerHTML = lettreJoueur;
     element.classList.add(classCss);
 }
+
+
+/*empecher le double clic sur la même case avec un innerHTML*/
